@@ -1,0 +1,9 @@
+python3 -m pip install slackclient==1.3.2
+
+SLACK_BOT_TOKEN paste correct Bot User OAuth Access Token
+
+python3 -i rudeness.py
+
+sudo -s
+mount -o remount,rw,hidepid=2 /proc  ## ON ROOT to avoid ps -aux listing
+chmod -R go-rwx /home/gp

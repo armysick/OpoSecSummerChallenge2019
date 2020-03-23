@@ -1,0 +1,9 @@
+## This was a prototypical idea. Was not used in the final challenge.
+
+
+
+https://stackoverflow.com/questions/21498667/how-to-limit-user-commands-in-linux
+
+
+Can execute sh scripts as '. <script>'
+and binaries if in PATH

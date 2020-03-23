@@ -1,0 +1,3 @@
+gcc tcpdump.c -o tcpdump    // gcc az.c -o az
+cp to /usr/local/bin
+sudo chmod 6775 tcpdump

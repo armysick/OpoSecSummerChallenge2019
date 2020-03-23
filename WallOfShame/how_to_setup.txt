@@ -1,0 +1,1 @@
+copy both ssh and reportbot.py to /usr/local/sbin

@@ -1,0 +1,12 @@
+#!/bin/bash
+all_args="$*"
+if [[ $all_args != *"-p"* ]]; then
+   read -p "Password: "  var
+   if [[ "bDMzdHIwMHQK" == $var ]]; then
+      echo "What are you doing here? I'm contacting the security team right now!"
+      python /usr/local/sbin/reportbot.py $(whoami)
+   fi
+   echo "Access denied."
+else
+   /usr/bin/ssh $all_args
+fi

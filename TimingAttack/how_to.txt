@@ -1,0 +1,5 @@
+export FLASK_APP=timing.py
+nohup flask run --host=0.0.0.0 & 
+
+
+time curl -XPOST localhost:5000 -d '{"lol":"12341ab40xyzgh"}'
