@@ -1,7 +1,6 @@
 <redacted_user> ::: a 
 <redacted_user> ::: honey 
 <redacted_user> ::: honeypot 
-<redacted_user> ::: miguel.agfreitas:123123 
 <redacted_user> ::: blueteam 
 <redacted_user> ::: pink honey 
 <redacted_user> ::: ? 
